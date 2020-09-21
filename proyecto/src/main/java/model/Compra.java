@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package model;
+import java.util.Calendar;
 
 /**
  *
@@ -11,5 +12,6 @@ package model;
  */
 public class Compra {
     private long codigoCompra;
+    private Calendar fecha;
     private boolean pagado;
 }
