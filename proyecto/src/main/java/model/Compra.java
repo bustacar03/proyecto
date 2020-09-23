@@ -14,4 +14,12 @@ public class Compra {
     private long codigoCompra;
     private Calendar fecha;
     private boolean pagado;
+    
+    Compra(){};
+    
+    Compra(long codigoCompra, Calendar fecha, boolean pagado){
+        this.codigoCompra=codigoCompra;
+        this.fecha=fecha;
+        this.pagado=pagado;
+    }
 }
